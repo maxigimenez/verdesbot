@@ -5,7 +5,6 @@
   "main": "lib/verdes.js",
   "scripts": {
     "start": "node bin/bot.js",
-    "dev": "BOT_API_KEY=xoxb-107220400966-8XVCxEbyNOLK1RYNoJqg1Dj1 node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
