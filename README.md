@@ -1,0 +1,1 @@
+# Verdes bot for Slack
