@@ -12,5 +12,8 @@ module.exports = {
   extractSellNumber: function (message) {
     var m = message.split(' ');
     return parseInt(m[2]);
+  },
+  isHistory: function (message) {
+    return message.indexOf('historial') > -1;
   }
 };
