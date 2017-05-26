@@ -1,19 +1,21 @@
+'use strict';
+
 module.exports = {
-  isHelp: function (message) {
-    return message.indexOf('help') > -1;
+  isHelp: (message) => {
+    return message.includes('help');
   },
-  isToday: function (message) {
-    return message.indexOf('hoy') > -1;
+  isToday: (message) => {
+    return message.includes('hoy');
   },
-  isSell: function (message) {
-    var m = message.split(' ');
+  isSell: (message) => {
+    const m = message.split(' ');
     return m[1] === 'vender' && parseInt(m[2]) > 0;
   },
-  extractSellNumber: function (message) {
-    var m = message.split(' ');
+  extractSellNumber: (message) => {
+    const m = message.split(' ');
     return parseInt(m[2]);
   },
-  isHistory: function (message) {
-    return message.indexOf('historial') > -1;
+  isHistory: (message) => {
+    return message.includes('historial');
   }
 };
