@@ -1,20 +1,19 @@
 {
   "name": "verdes-bot",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Slack bot to get USD dollar (verdes) currency, the blue and the official one.",
   "main": "lib/verdes.js",
   "scripts": {
     "start": "node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Maxi Gimenez <gimenez.maxi@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "dolar-blue": "^0.2.1",
     "format-currency": "^1.0.0",
     "mysql": "^2.13.0",
-    "slackbots": "^0.5.3",
-    "underscore": "^1.8.3"
+    "slackbots": "^0.5.3"
   },
   "bin": {
     "verdesbot": "bin/bot.js"
