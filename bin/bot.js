@@ -4,7 +4,12 @@
 
 const VerdesBot = require('../lib/verdes');
 
-const { BOT_API_KEY: token, BOT_NAME: name } = process.env;
-const verdesbot = new VerdesBot({ token, name });
+const token = process.env.BOT_API_KEY;
+const name = process.env.BOT_NAME;
+
+const verdesbot = new VerdesBot({
+  token: token,
+  name: name
+});
 
 verdesbot.run();
