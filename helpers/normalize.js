@@ -7,12 +7,5 @@ module.exports = {
     } else if (source === 'oficial') {
       return 'Oficial';
     }
-  },
-  sell: (source) => {
-    if (source === 'ambito_financiero') {
-      return 'Blue';
-    } else if (source === 'oficial') {
-      return 'Amigo';
-    }
   }
 };

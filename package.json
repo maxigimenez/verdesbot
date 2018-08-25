@@ -5,6 +5,7 @@
   "main": "lib/verdes.js",
   "scripts": {
     "start": "node bin/bot.js",
+    "dev": "nodemon bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maxi Gimenez <gimenez.maxi@gmail.com>",
@@ -17,5 +18,8 @@
   },
   "bin": {
     "verdesbot": "bin/bot.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
