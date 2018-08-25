@@ -20,6 +20,7 @@
     "verdesbot": "bin/bot.js"
   },
   "devDependencies": {
+    "express": "^4.16.3",
     "nodemon": "^1.18.3"
   }
 }
